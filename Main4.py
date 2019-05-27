@@ -1,0 +1,11 @@
+# bluetooth low energy scan
+from bluetooth.ble import DiscoveryService
+
+service = DiscoveryService()
+devices = service.discover(2)
+
+
+while(1):
+	for address, name in devices.items():
+    		print("name: {}, address: {}".format(name, address))
+
