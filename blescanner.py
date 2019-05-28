@@ -17,7 +17,7 @@ class ScanDelegate(DefaultDelegate):
 
 
 while(1):
-	blog = open("scanned_devices.txt", 'a')
+	blog = open("scanned_devices2.txt", 'a')
 	#curTime = datetime.datetime.now()
 	curTime = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
